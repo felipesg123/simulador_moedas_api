@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+    color: rgb(0, 0, 0);
+    
+}
+form{
+    position: relative;
+    left: 40%;
+    top: 70px;
+    background-color: rgb(113, 41, 237);
+    width: 300px;
+   border-radius: 10px;
+}
+button{
+    width: 100px;
+    background-color: rgb(14, 1, 91);
+    color: rgb(255, 255, 255);
+    min-width: 40px;
+}
+div{
+    color: black;
+}
+select{
+    background-color: rgb(14, 1, 91);
+    width: 60px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: bold,arial;
+}
+label{
+    color: rgb(255, 255, 255); 
+    font-family: bold,arial;   
+    
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-family: bold,arial;
+    font-family: bold,arial;
+}
+input{
+    background-color:rgb(14, 1, 91);
+    color: white;
+    font-family: bold,arial;
+}

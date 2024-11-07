@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>conversor de moeda</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+
+</head>
+<body>
+  <form id="currency-form">
+    <br>
+    <h3>comversor de moeda</h3>
+
+    <!-- local a onde o usuario escreve o valor -->
+    <div class="col-md-6">
+      <label for="inputvalor" class="form-label">valor</label>
+      <input type="number" class="form-control" id="amont">
+    </div>
+
+    <br><br>
+
+    <div class="input-group">
+      <label for="daMoeda">de</label>
+      <select id="daMoeda" required>
+        <option value="BRL">real</option>
+        <option value="USD">dolar</option>
+        <option value="EUR">euro</option>
+      </select>
+    </div>
+
+    <br><br>
+
+    <div class="input-group">
+      <label for="paraMoeda">para</label>
+      <select id="paraMoeda" required>
+        <option value="BRL">real</option>
+        <option value="USD">dolar</option>
+        <option value="EUR">euro</option>
+      </select>
+    </div>
+
+    <br><br>
+    <div class="col-md-6">
+      <button type="submit" class="btn btn-info" id="comverte">comverter</button>
+    </div>
+
+    <br>
+
+    <div class="col-md-6">
+      <button type="reset" class="btn btn-info" id="Blimpar">limpar</button>
+    </div><br><br>
+
+
+    <div id="conversao"></div>
+  </form>
+  
+
+
+  <script src='script.js'></script>
+</body>
+
+</html>
