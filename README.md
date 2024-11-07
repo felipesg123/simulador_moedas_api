@@ -23,10 +23,10 @@ id de acesso
 
 # ⚜️ tecnologias aplicadas ⚜️
 
- - html 5 
- - css 3
- - js 
- - api 
+ - html 5 para a base do projeto
+ - css 3 para estilização basica da pagina
+ - js  para as verificações e para a comsulta da api via cep
+ - api para a converção de moeda
 
  # 🔰 resumo das tecnologias aplicadas 🔰
   - o  html 5 e o js e o css 3 foram para fazes o back end e front end e a estilisação  da pagina e a comunicasão do site
@@ -37,11 +37,13 @@ id de acesso
 fazer a comverção das moedas 
 
 
+#  🔰 fontes consultadas 🔰
 
-# fontes consultadas 
-1 **exchengerete:** para a comverção
-2 **:**
-
+[mdm web docs](https://developer.mozilla.org/pt-BR/)
 
 
-# 
+# ⚜️  autor ⚜️
+felipe da silva gonçalves
+
+# ⚜️ menção onrosa ⚜️
+a léonardo rocha ( meu professor que ainda atura os meus erros semanticos)
